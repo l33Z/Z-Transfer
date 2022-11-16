@@ -1,19 +1,24 @@
 
-# Project Title
+# Z-Transfer
 <img src="./client/src/assets/icon.png" width="100">
 
 It is a Web application that facilitates the exchange of cryptocurrencies in an easy and interactive manner through the use of Giphy Api
 
-## Overview
+## 🚀 Live Demo
+
+- Click Here : [@Z-Transfer](https://z-transfer.netlify.app/)
+
+## 👀 Overview
 
 <img src="./client/src/assets/demo.gif">
 
 
-## Authors
+
+## 🧑‍💻 Authors
 
 - [@Zeel Rabadiya](https://www.github.com/l33Z)
 
-## Run Locally
+## 💻 Run Locally
 
 Clone the project
 
@@ -50,7 +55,7 @@ Start the server
 **Make Sure You Are Connected To Goerli Testnetwork To Metamask**
 
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 **Client:** React, ReactDom, ether.js
 
