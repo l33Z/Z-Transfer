@@ -1,0 +1,106 @@
+.TransactionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: #0f0e13;
+  background-image: radial-gradient(
+      at 0% 100%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 25%, 1) 0, transparent 50%);
+}
+
+.CoonectPlz {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CoonectPlz h1 {
+  letter-spacing: 2px;
+  font-size: 5rem;
+}
+
+#TransactionListTitle {
+  font-size: 4rem;
+  word-spacing: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3rem;
+  width: 100%;
+}
+
+.Tcard {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 35rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  background-color: #161b22;
+  box-shadow: 0 2rem 1rem #0d0f125d;
+}
+
+.basicInfo p {
+  padding-left: 1.5rem;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #d3eaf7;
+}
+
+#amountt {
+  margin-bottom: 1rem;
+}
+
+.gif {
+  position: relative;
+}
+
+.gif img {
+  background-position: center;
+  object-fit: cover;
+  width: 30rem;
+  max-width: 30rem;
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+#timeStamp {
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 1rem;
+  position: absolute;
+  bottom: -15px;
+  left: 21%;
+  color: deepskyblue;
+}
+
+.keyMessage {
+  margin-top: 1.5rem;
+}
+
+.keyMessage h2 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(212, 201, 201);
+}

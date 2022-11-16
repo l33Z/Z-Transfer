@@ -1,0 +1,150 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.heroSection {
+  height: calc(100vh - 7rem);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.leftSide {
+  padding-left: 5rem;
+}
+
+.leftSide h2 {
+  letter-spacing: 2px;
+  font-size: 5rem;
+}
+
+.leftSide p {
+  font-weight: lighter;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.leftSide h3 {
+  font-weight: lighter;
+}
+
+.infoCard {
+  margin-top: 7rem;
+  margin-left: 2rem;
+  width: 45rem;
+  height: 20rem;
+  background-color: #a099ff;
+  background-image: radial-gradient(
+      at 83% 67%,
+      rgb(152, 231, 156) 0,
+      transparent 58%
+    ),
+    radial-gradient(at 67% 20%, hsla(357, 94%, 71%, 1) 0, transparent 59%),
+    radial-gradient(at 88% 35%, hsla(222, 81%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 31% 91%, hsla(9, 61%, 61%, 1) 0, transparent 52%),
+    radial-gradient(at 27% 71%, hsla(336, 91%, 65%, 1) 0, transparent 49%),
+    radial-gradient(at 74% 89%, hsla(30, 98%, 65%, 1) 0, transparent 51%),
+    radial-gradient(at 53% 75%, hsla(174, 94%, 68%, 1) 0, transparent 45%);
+  border-radius: 1.5rem;
+  box-shadow: 0rem 1.5rem 0.5rem 0.5rem rgba(7, 7, 7, 0.664);
+  position: relative;
+}
+
+.infoCard img {
+  width: 6rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.acountInfo {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.acountInfo h5 {
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.acountInfo h1 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+/* ------------ Right Side ------------- */
+.rightSide {
+  padding-left: 7rem;
+}
+
+.form {
+  width: 50rem;
+  background-color: #0f0e13;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 100%, rgb(24, 27, 37) 0, transparent 50%);
+
+  padding: 3rem 2.5rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 30px 20px rgba(0, 0, 0, 0.342);
+}
+
+.form input {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.7rem;
+  margin-top: 15px;
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: rgba(61, 56, 61, 0.308);
+}
+
+.btn {
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.534);
+  width: 100%;
+}
+
+#sendBtn {
+  width: 100%;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: 1.2rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  transition: all 0.5s linear ease-in-out;
+
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
+}
+
+#sendBtn:hover {
+  background-color: #edb346;
+  color: rgb(0, 0, 0);
+}
+
+.text h3 {
+  margin-top: 20px;
+  font-size: 2rem;
+}

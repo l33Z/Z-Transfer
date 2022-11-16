@@ -1,0 +1,96 @@
+.header {
+  color: #fff;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftside {
+  padding-left: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cname {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  margin-bottom: 0.2rem;
+  font-size: 2.3rem;
+}
+
+.leftside img {
+  animation: rotateLogo 10s infinite linear;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.rightside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5rem;
+}
+
+.rightside ul {
+  margin-right: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightside ul li {
+  cursor: pointer;
+  font-size: 2rem;
+  list-style: none;
+  margin-right: 2.2rem;
+}
+
+.rightside ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.rightside ul li:hover {
+  border-bottom: 2px solid deepskyblue;
+  margin-bottom: 1px;
+}
+
+.loginbtn {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  background-color: #edb346;
+  padding: 1.2rem 2rem;
+  color: rgb(7, 7, 7);
+  transition: all 0.3s ease;
+}
+
+.loginbtn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#connected {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
